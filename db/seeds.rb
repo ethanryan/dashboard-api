@@ -26,26 +26,26 @@ buildings = Building.create([
   {
     name: "Empire State Building",
     address: "350 5th Ave, New York, NY 10118",
-    user_id: 1,
+    user_id: 2,
   },
   {
     name: "Trump Tower",
     address: "725 5th Ave, New York, NY 10022",
-    user_id: 2,
+    user_id: 3,
   },
   {
     name: "Trump International Hotel & Tower New York",
     address: "1 Central Park West, New York, NY 10023",
-    user_id: 2,
+    user_id: 3,
   },
   {
     name: "Trump Palace",
     address: "200 E 69th St, New York, NY 10021",
-    user_id: 2,
+    user_id: 3,
   },
   {
     name: "Barclays Center",
     address: "620 Atlantic Ave, Brooklyn, NY 11217",
-    user_id: 3,
+    user_id: 4,
   },
 ])
