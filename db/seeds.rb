@@ -27,6 +27,16 @@ users = User.create([
     admin: false,
     bio: "Mr. Carter"
   },
+  {
+    name: "Walt Disney Company",
+    admin: false,
+    bio: "The House of Mouse"
+  },
+  {
+    name: "XYZ Marketing Company",
+    admin: false,
+    bio: "Connecting consumers with great brands."
+  },
 ])
 
 buildings = Building.create([
