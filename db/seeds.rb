@@ -9,16 +9,23 @@
 users = User.create([
   {
     name: "admin",
-    admin: true
+    admin: true,
+    bio: "VisuWall administrator"
   },
   {
     name: "King Kong",
+    admin: false,
+    bio: "King of New York"
   },
   {
     name: "Trump",
+    admin: false,
+    bio: "You're fired!"
   },
   {
     name: "Jay-Z",
+    admin: false,
+    bio: "Mr. Carter"
   },
 ])
 
