@@ -39,6 +39,18 @@ users = User.create([
     bio: "Connecting consumers with great brands.",
     ad_campaign: "Nike"
   },
+  {
+    name: "McDonald's McMarketing",
+    admin: false,
+    bio: "I'm lovin it!",
+    ad_campaign: "McDonald's"
+  },
+  {
+    name: "HBO",
+    admin: false,
+    bio: "It's not TV. It's HBO.",
+    ad_campaign: "HBO"
+  },
 ])
 
 buildings = Building.create([
